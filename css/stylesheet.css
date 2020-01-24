@@ -41,9 +41,9 @@ body {
 }
 
 .logo {
-  top: 20px;
-  left: 20px;
-  width: 150px;
+  top: 30px;
+  left: 30px;
+  width: 130px;
   cursor: pointer;
   transform: translate3d(0,0,0);
   -webkit-transform-style: preserve-3d;
@@ -135,4 +135,11 @@ body {
        -moz-animation: repaint 100ms;
         -ms-animation: repaint 100ms;
             animation: repaint 100ms;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.logo{
+		left: 40%;
+	}
 }
