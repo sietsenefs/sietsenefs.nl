@@ -1,5 +1,5 @@
 
-// ==== Logo color switch ================================
+// logo switch color
 
 function logoSwitch () {
   $('.altLogo').each(function() {
@@ -18,7 +18,7 @@ $(document).scroll(function() {logoSwitch();});
 
 logoSwitch();
 
-// ==== Logo animation ================================
+// logo animation
 
 console.clear();
 var tl = new TimelineLite({paused: true});
@@ -34,6 +34,8 @@ $(".animate").mouseenter(function(){
     tl.play(0);
   }
 });
+
+
 
 
 

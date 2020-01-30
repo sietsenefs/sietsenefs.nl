@@ -23,6 +23,8 @@ a{
 }
 
 .heroh{
+	height: 127px;
+	padding: 0px 10px;
 	
 }
 
@@ -38,6 +40,36 @@ a{
 	font-weight: 300;
 	font-size: 42px;
 }
+
+
+
+
+
+.corner{
+		z-index: 20;
+	position:absolute;
+	height: 40px;
+	width: 40px;
+}
+
+.coner1{
+	float: left;
+	margin-left: -10px ;
+	margin-top:85px;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+}
+
+.coner2{
+	float:right;
+	margin-left: 270px ;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	
+}
+
+
+
 
 .navheader{
 	
@@ -214,4 +246,33 @@ text-orientation: mixed;
 		right: 0;
 		margin: 0 auto;
 	}
+	
+
+	
+	
 }
+
+@media only screen and (max-height: 800px){
+	
+		.navbar1{
+		margin: 40px 0px 0px 0px;;
+}
+
+.navbar2{
+	margin: 40px 0px 0px 0px ;
+}
+	
+}
+
+@media only screen and (max-height: 640px){
+	
+		.navbar1{
+		margin: 0px 0px 0px 0px;;
+}
+
+.navbar2{
+	margin: 0px 0px 0px 0px ;
+}
+	
+}
+
