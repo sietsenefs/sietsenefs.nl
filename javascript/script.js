@@ -42,4 +42,3 @@ $(".animate").mouseenter(function(){
 
 
 
-

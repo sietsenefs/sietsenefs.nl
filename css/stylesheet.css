@@ -1,194 +1,164 @@
-
+/* start general css*/
 * {
   padding: 0;
   margin: 0;
 }
-
 body {
   font-family: 'Playfair Display', serif;
 }
-
-a{
-	text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.herotekst{
-	
+h1{
+	  font-family: 'Raleway', sans-serif;
+}
+h2{
+	  font-family: 'Raleway', sans-serif;
+}
+
+.center{
 	width: 100%;
-	height: 100px;
 	display: flex;
 	justify-content: center;
+}
+
+/* end general css*/
+/* start landing section */
+.herohtekst {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40vh;
+}
+.heroh {
+  height: 127px;
+  padding: 0px 10px;
+}
+
+.heroh.heroh:hover {
+  filter: drop-shadow(0px 4px 6px #202020);
+  transform: translate(0, -2px);
+  transition: all, .3s ease-out;
+}
+
+.heroh1 {
+
+  font-weight: 400;
+  font-size: 61px;
+}
+.heroh2 {
+
+  font-weight: 300;
+  font-size: 42px;
+}
+.corner {
+  z-index: 20;
+  position: absolute;
+  height: 40px;
+  width: 40px;
 	
-	margin-top: 40vh;
+}
+.coner1 {
+  float: left;
+  margin-left: -10px;
+  margin-top: 85px;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+}
+.coner2 {
+  float: right;
+  margin-left: 270px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
 }
 
-.heroh{
-	height: 127px;
-	padding: 0px 10px;
+.arrowdown{
+	position: absolute;
+	bottom: 7vh;
+	height: 30px;
+	width: 30px;
 	
-}
-
-.heroh1{
-	font-family: 'Raleway', sans-serif; 
-	font-weight: 400;
-	font-size: 61px;
-	
-}
-
-.heroh2{
-	font-family: 'Raleway', sans-serif; 
-	font-weight: 300;
-	font-size: 42px;
-}
-
-
-
-
-
-.corner{
-		z-index: 20;
-	position:absolute;
-	height: 40px;
-	width: 40px;
-}
-
-.coner1{
-	float: left;
-	margin-left: -10px ;
-	margin-top:85px;
-	border-bottom: 2px solid black;
-	border-left: 2px solid black;
-}
-
-.coner2{
-	float:right;
-	margin-left: 270px ;
-	border-top: 2px solid black;
+	transform: rotate(45deg);
 	border-right: 2px solid black;
-	
+	border-bottom: 2px solid black;
 }
 
-
-
-
-.navheader{
-	
-	margin-top: 30px;
-	width: 98%;
-	
-	
-	
-	display:flex;
-	justify-content: flex-end;
-	
-	
+.navheader {
+  margin-top: 30px;
+  width: 98%;
+  display: flex;
+  justify-content: flex-end;
 }
-
-.navbar{
-	font-size: 25px;
-
-	position: fixed;
-	
+.navbar {
+  font-size: 25px;
+  position: fixed;
 }
-
-.navbar1{
-		margin: 180px 0px 0px 0px;;
+.navbar1 {
+  margin: 180px 0px 0px 0px;
+  ;
 }
-
-.navbar2{
-	margin: 180px 0px 0px 0px ;
+.navbar2 {
+  margin: 180px 0px 0px 0px;
 }
-
-.navtext{
-	font-family: 'Raleway', sans-serif;
-	writing-mode: vertical-rl;
-text-orientation: mixed;
-	
-	
-	
+.navtext {
+  font-family: 'Raleway', sans-serif;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
 }
-
-
-
-.navtext1{
-	color: black;
+.navtext1 {
+  color: black;
 }
-
-.navtext2{
-	color: white;
+.navtext2 {
+  color: white;
 }
-
-.active{
-	color: #f1646c;
+.active {
+  color: #f1646c;
 }
-
-
-
-
-
-
-
-
+/* end landing section */
 .row {
-  min-height: 110vh;
+  min-height: 105vh;
   overflow: hidden;
   position: relative;
   width: 100%;
 }
-
-.whitebox{
-	background-color: white;
-	height: 200px;
-	width: 100%;
+.whitebox {
+  background-color: white;
+  min-height: 200px;
+  width: 100%;
 }
-
 .logo {
   top: 30px;
   left: 30px;
-  width: 130px;
+  width: 120px;
   cursor: pointer;
-  transform: translate3d(0,0,0);
+  transform: translate3d(0, 0, 0);
   -webkit-transform-style: preserve-3d;
 }
-/*.logo:hover {
-  filter: drop-shadow(0px 4px 6px #191919);
+.logo:hover {
+  filter: drop-shadow(0px 4px 6px #202020);
   transform: translate(0, -2px);
-  transition: all, .3s ease-out;
-}*/
+
+}
 .startLogo {
   position: fixed;
-  
 }
-
 .altLogo {
   position: absolute;
-  top:0px;
-  transform: translate3d(0,0,0);
+  top: 0px;
+  transform: translate3d(0, 0, 0);
 }
-.startLogo:active{
-    animation: repaint 1ms;
-}
-.whiteLogo {
- 
- 
-}
-
-.blackLogo {
- 
- 
-}
-.redLogo {
-  fill: red;
-  stroke:red;
+.startLogo:active {
+  animation: repaint 1ms;
 }
 .black {
   background: #202020;
 }
-
 .white {
   background: whitesmoke;
 }
-.green{
+.green {
   background: green;
 }
 #scroll {
@@ -198,81 +168,195 @@ text-orientation: mixed;
   text-align: center;
   font-family: arial
 }
+/*graphic design portion*/
+.graphicback {
+  background-image: url("../content/images/blocksbackground.png");
+  /* Set a specific height */
+  min-height: 210vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.herogdtekst {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 130vh;
+}
+.herogd {
+  height: 127px;
+  padding: 0px 10px;
+	color: white;
+}
+.herog {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 81px;
+}
+.herod {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 81px;
+	margin: -19px 0px 0px 89.57px;
+	
+}
+.cornergd {
+  z-index: 20;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+}
+.conergd1 {
+  float: left;
+  margin-left: -10px;
+  margin-top: 135px;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+}
+.conergd2 {
+  float: right;
+  margin-left: 308px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+}
+
+/* nomnom fontface */
+.nomnombox{
+	min-height: 120vh;
+	background-image: url("../content/images/nomnombackground.png");
+	  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+		
+}
+
+.nomnomlogo{
+	width: 80%;
+	height: auto;
+}
+
+.nomnomlogobox{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-top: 150px;
+	
+}
+
+.h1nomnom{
+	color: white;
+	font-size: 90px;
+}
+
+
+.nomnommockup{
+	height: 100vh;
+	width: 100%;
+	margin: -30px 0px 0px 0px;
+	  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nomnommockup1{
+	background-image: url("../content/images/azmockup.png");
+}
+
+.nomnommockup2{
+	background-image: url("../content/images/foxmockup.png");
+}
+
+.nomnommockup3{
+	background-image: url("../content/images/manymockup.png");
+}
+
+.nomnommockupimg{
+	height: 800px;
+	width: auto;
+}
+
 
 @-webkit-keyframes repaint {
-
-    from {
-        width: 99.9%;
-    }
-    to {
-        width: 100%;
-    }
-
+  from {
+    width: 99.9%;
+  }
+  to {
+    width: 100%;
+  }
 }
-
 @-moz-keyframes repaint {
-
-    from {
-        width: 99.9%;
-    }
-    to {
-        width: 100%;
-    }
-
+  from {
+    width: 99.9%;
+  }
+  to {
+    width: 100%;
+  }
 }
-
 @keyframes repaint {
-
-    from {
-        width: 99.9%;
-    }
-    to {
-        width: 100%;
-    }
-
+  from {
+    width: 99.9%;
+  }
+  to {
+    width: 100%;
+  }
 }
-
 .repaint {
-    -webkit-animation: repaint 100ms;
-       -moz-animation: repaint 100ms;
-        -ms-animation: repaint 100ms;
-            animation: repaint 100ms;
+  -webkit-animation: repaint 100ms;
+  -moz-animation: repaint 100ms;
+  -ms-animation: repaint 100ms;
+  animation: repaint 100ms;
 }
+
+
+
 
 
 @media only screen and (max-width: 600px) {
-	.logo{
-		left: 0;
-		right: 0;
-		margin: 0 auto;
-	}
-	
-
-	
-	
+  .logo {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .heroh1 {
+    font-size: 41px;
+  }
+  .heroh2 {
+    font-size: 28px;
+  }
+  .corner {
+    height: 30px;
+    width: 30px;
+  }
+  .coner1 {
+    margin-left: -9px;
+    margin-top: 56px;
+  }
+  .coner2 {
+    margin-left: 180px;
+    margin-top: -2px;
+  }
 }
-
-@media only screen and (max-height: 800px){
-	
-		.navbar1{
-		margin: 40px 0px 0px 0px;;
+@media only screen and (max-height: 800px) {
+  .navbar1 {
+    margin: 40px 0px 0px 0px;
+    ;
+  }
+  .navbar2 {
+    margin: 40px 0px 0px 0px;
+  }
 }
-
-.navbar2{
-	margin: 40px 0px 0px 0px ;
+@media only screen and (max-height: 640px) {
+  .navbar1 {
+    margin: 0px 0px 0px 0px;
+    ;
+  }
+  .navbar2 {
+    margin: 0px 0px 0px 0px;
+  }
 }
-	
-}
-
-@media only screen and (max-height: 640px){
-	
-		.navbar1{
-		margin: 0px 0px 0px 0px;;
-}
-
-.navbar2{
-	margin: 0px 0px 0px 0px ;
-}
-	
-}
-
