@@ -3,8 +3,14 @@
   padding: 0;
   margin: 0;
 }
-body {
+html, body {
   font-family: 'Playfair Display', serif;
+	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+
 }
 a {
   text-decoration: none;
@@ -21,6 +27,7 @@ h2{
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	text-align: center;
 }
 
 /* end general css*/
@@ -114,8 +121,10 @@ h2{
   color: white;
 }
 .active {
-  color: #f1646c;
+ color: #f1646c;
 }
+
+
 /* end landing section */
 .row {
   min-height: 105vh;
@@ -145,6 +154,7 @@ h2{
   position: fixed;
 }
 .altLogo {
+	z-index: 100;
   position: absolute;
   top: 0px;
   transform: translate3d(0, 0, 0);
@@ -236,7 +246,7 @@ h2{
 }
 
 .nomnomlogo{
-	width: 80%;
+	width: 60%;
 	height: auto;
 }
 
@@ -279,6 +289,199 @@ h2{
 .nomnommockupimg{
 	height: 800px;
 	width: auto;
+}
+
+.nomnominfowhitebox{
+	height: auto;
+}
+
+.nomnominfobox{
+	padding: 0px 60px 0px 60px;
+	width: 1fr;
+	 list-style: none;
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+}
+@media (max-width: 1000px){
+.nomnominfobox {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px){
+.nomnominfobox {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+.nomnominfo{
+	
+	margin: 20px 0px 20px 0px;
+	
+	height: auto
+}
+
+.nomnominfo h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+} 
+.nomnominfo p{
+	font-family: 'Montserrat', sans-serif;
+
+} 
+.nomnominfo1{
+	
+}
+.nomnominfo2{
+	
+}
+.nomnominfo3{
+	
+}
+.nomnominfo4{
+	
+}
+
+
+.europabox{
+	min-height: 120vh;
+
+	background-image: url("../content/images/fingerprint.png");
+	  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+		
+}
+
+.europalogo{
+	width: 80%;
+	height: auto;
+}
+
+.europalogobox{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-top: 40vh;
+	
+}
+
+.europatext1{
+	font-size: 80px;
+}
+
+.europatext2{
+	font-size: 46.6px;
+}
+
+@media (max-width: 500px){
+.europatext1{
+	font-size: 10vw;
+}
+
+.europatext2{
+	font-size: 8vw;
+}
+}
+
+.europamockup{
+		height: 120vh;
+	width: 100%;
+	margin: -30px 0px 0px 0px;
+	  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.europamockup1{
+		background-image: url("../content/images/europamockup1.png");
+}
+
+.europamockup2{
+		background-image: url("../content/images/europamockup2.png");
+}
+
+
+
+#kunstvandaagbox{
+	padding: 30vh 0px 0px 0px;
+		min-height: 120vh;
+	background-image: url("../content/images/kunstvandaagimg.png");
+	  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.textkunst{
+	font-family: 'Caesar Dressing', cursive;
+	font-size: 120px;
+	color: pink;
+}
+
+.textvandaag{
+	font-family: 'Caesar Dressing', cursive;
+	font-size: 120px;
+	margin: -90px 0px 0px 0px;
+}
+
+@media (max-width: 500px){
+.textkunst{
+	font-size: 20vw;
+}
+
+.textvandaag{
+	font-size: 20vw;
+	margin: -15vw 0px 0px 0px;
+}
+}
+
+.vandaagmockup{
+		height: 120vh;
+	width: 100%;
+	margin: -30px 0px 0px 0px;
+	  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.vandaagmockup1{
+		background-image: url("../content/images/kunstvandaagp2.png");
+}
+
+.vandaagmockup2{
+		background-image: url("../content/images/kunstvandaagp3.png");
+}
+
+.vandaagmockup3{
+		background-image: url("../content/images/kunstvandaagp4.png");
+}
+
+.vandaagmockup4{
+		background-image: url("../content/images/kunstvandaagp5.png");
+}
+
+.vandaagmockup5{
+		background-image: url("../content/images/kunstvandaagp6.png");
+}
+
+.vandaagmockup6{
+		background-image: url("../content/images/kunstvandaagp7.png");
+}
+
+.vandaagmockup7{
+		background-image: url("../content/images/kunstvandaagp9.png");
+}
+
+.vandaagmockup8{
+		background-image: url("../content/images/kunstvandaagp10.png");
 }
 
 
@@ -359,4 +562,10 @@ h2{
   .navbar2 {
     margin: 0px 0px 0px 0px;
   }
+}
+
+/* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
 }
