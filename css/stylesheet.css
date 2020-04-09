@@ -9,7 +9,7 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-
+	
 
 }
 a {
@@ -171,6 +171,11 @@ h2{
 .green {
   background: green;
 }
+
+#graphicdesign{
+	margin-top:-40vh;
+}
+
 #scroll {
   position: fixed;
   bottom: 40px;
