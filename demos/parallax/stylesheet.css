@@ -13,3 +13,17 @@ body {
           transform: translateY(var(--translateY));
   will-change: transform;
 }
+
+.headtext{
+	font-size: 10vw;
+	font-family: 'Caveat Brush', cursive;
+	color: #3f3383;
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	width: 100%;
+	margin-top: 5vh;
+}
