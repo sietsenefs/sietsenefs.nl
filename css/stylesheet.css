@@ -67,14 +67,14 @@ h2{
   width: 40px;
 	
 }
-.coner1 {
+.corner1 {
   float: left;
   margin-left: -10px;
   margin-top: 85px;
   border-bottom: 2px solid black;
   border-left: 2px solid black;
 }
-.coner2 {
+.corner2 {
   float: right;
   margin-left: 270px;
   border-top: 2px solid black;
@@ -176,6 +176,7 @@ h2{
 	margin-top:-40vh;
 }
 
+
 #scroll {
   position: fixed;
   bottom: 40px;
@@ -195,6 +196,8 @@ h2{
   background-size: cover;
 }
 
+
+
 .herogdtekst {
   width: 100%;
   height: 100px;
@@ -212,6 +215,9 @@ h2{
   font-weight: 400;
   font-size: 81px;
 }
+
+
+
 .herod {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
@@ -225,14 +231,14 @@ h2{
   height: 40px;
   width: 40px;
 }
-.conergd1 {
+.cornergd1 {
   float: left;
   margin-left: -10px;
   margin-top: 135px;
   border-bottom: 2px solid white;
   border-left: 2px solid white;
 }
-.conergd2 {
+.cornergd2 {
   float: right;
   margin-left: 308px;
   border-top: 2px solid white;
@@ -490,6 +496,99 @@ h2{
 }
 
 
+.iherogd {
+  height: 127px;
+  padding: 0px 10px;
+	color: white;
+}
+.iherog {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 81px;
+}
+.iherod {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 81px;
+	margin: -19px 0px 0px 200px;
+	
+}
+
+#interdesign{
+	margin-top:-40vh;
+}
+
+.cornerid {
+  z-index: 20;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+}
+.cornerid1 {
+  float: left;
+  margin-left: -10px;
+  margin-top: 135px;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+}
+.cornerid2 {
+  float: right;
+  margin-left: 420px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.interback {
+  background-image: url("../content/images/blocksbackground2.png");
+  /* Set a specific height */
+  min-height: 210vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.spacer{
+	height: 30vh;
+}
+.textjapan{
+	font-size: 6vw;
+	font-family: 'Caveat Brush', cursive;
+	color: #3f3383;
+}
+
+.japanback{
+	  background-image: url("../content/images/japanbackground.png");
+  /* Set a specific height */
+  min-height: 150vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.static{
+		display: flex;
+	justify-content: center;
+	min-height: 100%;
+	min-width: 100%;
+	margin: 0;
+}
+#videojapan{
+
+	z-index: -1;
+
+position: fixed;
+top:0;
+	
+}
+
+.rowbig{
+	min-height: 200vh;
+}
+
 @-webkit-keyframes repaint {
   from {
     width: 99.9%;
@@ -541,14 +640,41 @@ h2{
     height: 30px;
     width: 30px;
   }
-  .coner1 {
+  .corner1 {
     margin-left: -9px;
     margin-top: 56px;
   }
-  .coner2 {
+  .corner2 {
     margin-left: 180px;
     margin-top: -2px;
   }
+	.cornerid1 {
+
+   margin-left: -30px;
+  margin-top: 70px;
+
+
+}
+.cornerid2 {
+
+  margin-left: 240px;
+
+}
+	
+	.iherog {
+  font-size: 51px;
+		margin: 0px 0px 0px -20px;
+}
+.iherod {
+
+  font-size: 51px;
+	margin: -10px 0px 0px 104px;
+	
+}
+
+	
+
+	
 }
 @media only screen and (max-height: 800px) {
   .navbar1 {
