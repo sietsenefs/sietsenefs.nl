@@ -275,7 +275,7 @@ font-size: 25px;
 
 .topview-text-p-small{
     font-size: 15px;
-    text-align: center;
+    text-align: left;
     }
 
 .topview-img{
@@ -283,8 +283,9 @@ font-size: 25px;
 }
 
 .topview-img-image{
-    width: 100%;
-    height: auto;
+    display: block;
+  width: 100%;
+  height: auto;
 }
 
 
@@ -319,6 +320,7 @@ font-size: 25px;
 
 .sketch1{
 order: 1;
+
 }
 
 .sketch2{
@@ -329,8 +331,43 @@ order: 1;
 }
 
 .sketch-img{
-    padding: 5% 15%;
+  padding: 2% 5%;
 }
+
+.overlay-sketch {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  font-family: 'Nunito', sans-serif;
+  background-color: rgba(0, 0, 0, 0.205);
+}
+
+.text-sketch {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  width: 80%;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.container:hover .overlay-sketch {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.205);
+  color: white;
+}
+
 
 .section2{
     background-color: #e8f1f3;
