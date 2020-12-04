@@ -288,6 +288,11 @@ font-size: 25px;
 
 .topview-img{
     width: 50%;
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .topview-img-image{
@@ -297,7 +302,7 @@ font-size: 25px;
 }
 
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1279px) {
     .topview{  
         display: block;
     }
@@ -324,6 +329,87 @@ font-size: 25px;
   }
   /* topview end */
 
+
+/* aboutview */
+.aboutview{
+  margin-top: 0px;
+  width: 100%;
+  padding: 0 10%;
+  display: flex;
+  margin-bottom: 0px;
+}
+
+.aboutview-hero{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.aboutview-text{
+  padding: 0 5%;
+  width: 55%;
+  font-family: 'Nunito', sans-serif;
+}
+
+.aboutview-text-h1{
+  text-align: center;
+font-size: 40px;
+font-weight: 400;
+}
+
+.aboutview-text-p{
+font-size: 25px;
+}
+
+.aboutview-text-p-small{
+  font-size: 15px;
+  text-align: left;
+  }
+
+.aboutview-img{
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.aboutview-img-image{
+  
+width: 100%;
+height: auto;
+}
+
+
+@media screen and (max-width: 1279px) {
+  .aboutview{  
+      display: block;
+  }
+
+  .aboutview-text{
+      width: 100%;
+      padding: 0 10%;
+      margin-bottom: 40px;
+  }
+
+  .aboutview-img{
+      width: 100%;
+      padding: 0 0%;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  .aboutview-text{
+      width: 100%;
+      padding: 0;
+  }
+
+}
+/* aboutview end */
+
+
+
   /* extrainfo */
 
 .sketch1{
@@ -340,6 +426,11 @@ order: 1;
 
 .sketch-img{
   padding: 2% 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
