@@ -5,7 +5,10 @@
   body {
     margin: 0;
     font-family: 'Nunito', sans-serif;
-    background-color: #f5fdff;
+    /* background-color: #f5fdff; */
+    background-image: url('../content/images/pattern.jpg') ;
+    background-color: rgba(255,255,255,0.99);
+    background-blend-mode: lighten;
   }
   
 
@@ -271,6 +274,7 @@
 .topview-text-h1{
     text-align: center;
 font-size: 40px;
+font-weight: 400;
 }
 
 .topview-text-p{
@@ -381,7 +385,11 @@ order: 1;
 
 
 .section2{
-    background-color: #e8f1f3;
+    /* background-color: #e8f1f3; */
+    /* background-color: rgba(227, 246, 255, 0.8); */
+    
+    background-color: rgba(130, 148, 151, 0.164);
+    
 }
 
 .topview-space-top{
@@ -412,10 +420,44 @@ order: 1;
 
 }
 
+.footerabout{
+  margin-top: 30px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .footer p{
     color: rgb(46, 46, 46);
     font-family: 'Nunito', sans-serif;
 
+}
+
+.aboutcontact{
+ 
+    margin-top: 50px;
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.aboutcontact p, .aboutcontact a{
+  margin: 0;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+i{
+  margin-left: 30px;
 }
 
 /* footer end */
