@@ -6,8 +6,8 @@
     margin: 0;
     font-family: 'Nunito', sans-serif;
     /* background-color: #f5fdff; */
-    background-image: url('../content/images/pattern.jpg') ;
-    background-color: rgba(255,255,255,0.99);
+    background-image: url('../content/images/pattern_snietse.png') ;
+    background-color: rgba(255,255,255,0.975);
     background-blend-mode: lighten;
   }
   
