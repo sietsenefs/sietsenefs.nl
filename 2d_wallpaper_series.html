@@ -57,10 +57,13 @@
 
 
         <div class="topview-img">
-            <img class="topview-img-image" id="myImg" src="content/covers/image (4).png">
+            <video class="topview-img-image" autoplay muted controls loop>
+                <source src="content/videos/2dwallpaper.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>  
         </div>
 
-
+        
              
 
 
@@ -82,11 +85,11 @@
 
         <div class="topview-img sketch1 sketch-img">
             <div class="container" id="myImg2">
-                <img class="topview-img-image"  src="content/images/ghost_sketches (1).jpg">
+                <img class="topview-img-image"  src="content/images/wallpaper2d1.JPG">
                 <a  class="overlay overlay-sketch">
                     <div class="text-sketch">
                         
-                        <p class="smalltext">First ideas and sketches</p>
+                        <p class="smalltext">List of all the rendered images</p>
                     </div> 
                 </a>
               </div>
@@ -96,11 +99,11 @@
     <div class="topview topview-space-bottom section2">
         <div class="topview-img sketch-img">
             <div class="container" id="myImg3">
-                <img class="topview-img-image " src="content/images/ghost_sketches (3).jpg">
+                <img class="topview-img-image " src="content/images/wallpaper2d2.JPG">
                 <a  class="overlay overlay-sketch">
                     <div class="text-sketch">
                 
-                        <p class="smalltext">Some more ideas and sketches</p>
+                        <p class="smalltext">Setup for the wallpaper</p>
                     </div> 
                 </a>
               </div>                </div>
@@ -108,11 +111,11 @@
         
                 <div class="topview-img sketch-img">
                     <div class="container" id="myImg4">
-                        <img class="topview-img-image " src="content/images/ghost_sketches (2).jpg">
+                        <img class="topview-img-image " src="content/images/wallpaper2d3.JPG">
                         <a  class="overlay overlay-sketch">
                             <div class="text-sketch">
                                 
-                                <p class="smalltext">A plan to model the ghost in 3D</p>
+                                <p class="smalltext">Setting up the lighting so it give it a cartoony feel</p>
                             </div> 
                         </a>
                       </div>                </div>
@@ -124,35 +127,35 @@
             <div class="topview topview-space-top section3">
                 <div class="topview-text sketch1">
                     <div>
-                    <h1 class="topview-text-h1">Modeling</h1>
-                    <p class="topview-text-p">When i started modeling i already had my end product in mind. So to get there I 
-                        choose to run a cloth simulation for the ghost the get a more accurate but also faster ghost wich i could then just cut out some holes
-                        to give him some expression.
+                    <h1 class="topview-text-h1">Result</h1>
+                    <p class="topview-text-p">This project was a very unique and educational because i learned alot of features in blender
+                        and more importantly I learned how i can use those feature to transfer the image in my thought to the screen and make something tottaly unique.
                     </p>
                 </div>
                 </div>
         
                 <div class="topview-img sketch2 sketch-img">
                     <div class="container" id="myImg5">
-                        <img class="topview-img-image" src="content/images/robot_proces (1).png">
+                        <img class="topview-img-image" src="content/covers/image (4).png">
                         <a  class="overlay overlay-sketch">
                             <div class="text-sketch">
                                 
-                                <p class="smalltext">making basic shapes for the simulation</p>
+                                <p class="smalltext">My personal favorite of the first 100 images</p>
                             </div> 
                         </a>
                       </div>                
                     </div>
+
             </div>
         
             <div class="topview section3">
                 <div class="topview-img sketch-img">
                     <div class="container" id="myImg6">
-                        <img class="topview-img-image" src="content/images/robot_proces (2).PNG">
+                        <img class="topview-img-image" src="content/images/wallpaper_series (2).png">
                         <a  class="overlay overlay-sketch">
                             <div class="text-sketch">
                                 
-                                <p class="smalltext">the cloth falling over the ball to get a ghost</p>
+                                <p class="smalltext">A rondomly chosen image of the series</p>
                             </div> 
                         </a>
                       </div>                        </div>
@@ -160,11 +163,11 @@
                 
                         <div class="topview-img sketch-img">
                             <div class="container" id="myImg7">
-                                <img class="topview-img-image" src="content/images/robot_proces (3).png">
+                                <img class="topview-img-image" src="content/images/wallpaper_series (1).png">
                                 <a  class="overlay overlay-sketch">
                                     <div class="text-sketch">
                                         
-                                        <p class="smalltext">Adding lighting the give it a eerie feeling</p>
+                                        <p class="smalltext">Some didn't turn out as good as others, But that only makes this project more unique</p>
                                     </div> 
                                 </a>
                               </div>                        </div>
@@ -199,7 +202,7 @@
     var modal = document.getElementById('myModal');
     
     // Get the image and insert it inside the modal - use its "alt" text as a caption
-    var img = document.getElementById('myImg');
+
     var img2 = document.getElementById('myImg2');
     var img3 = document.getElementById('myImg3');
     var img4 = document.getElementById('myImg4');
@@ -208,12 +211,7 @@
     var img7 = document.getElementById('myImg7');
     var modalImg = document.getElementById("img01");
     var captionText = document.getElementById("caption");
-    img.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        modalImg.alt = this.alt;
-        captionText.innerHTML = this.alt;
-    }
+
     img2.onclick = function(){
         modal.style.display = "block";
         modalImg.src = this.firstElementChild.src;
