@@ -6,9 +6,9 @@
     margin: 0;
     font-family: 'Nunito', sans-serif;
     /* background-color: #f5fdff; */
-    background-image: url('../content/images/pattern_snietse.png') ;
-    background-color: rgba(255,255,255,0.975);
-    background-blend-mode: lighten;
+    background-image: url('../content/images/pattern_snietselight.png') ;
+    /* background-color: rgba(255,255,255,0.94);
+    background-blend-mode:lighten; */
   }
   
 
@@ -219,7 +219,7 @@
   }
 
   .overlay6{
-    background-color: #B7967E;
+    background-color: #357fd3;
   }
 
   .overlay7{
@@ -584,7 +584,7 @@ order: 1;
     /* background-color: #e8f1f3; */
     /* background-color: rgba(227, 246, 255, 0.8); */
     
-    background-color: rgba(130, 148, 151, 0.164);
+    background-color: rgba(146, 157, 163, 0.548);
     
 }
 
